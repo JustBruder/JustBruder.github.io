@@ -14,6 +14,8 @@
 <img src="https://img.shields.io/badge/-GitHub%20Pages-FF007F?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Pages" />
   </p>
 
+</div>
+
 <hr />
 
 ## Sobre o Projeto
@@ -33,8 +35,8 @@ Este **Portfólio** funciona como uma vitrine profissional e laboratório técni
 - Destaque para a transição e sinergia entre **9+ anos de experiência no atendimento técnico/suporte** e a graduação em **Engenharia da Computação**.
 - Foco em arquitetura **Java/Spring Boot**, automação em **Python** e segurança no ciclo de desenvolvimento de software (SDLC).
 - Pilares de atuação:
-  - **DevSecOps & Cybersecurity:** automação na esteira de deploy e gerenciamento seguro de segredos.
-  - **Gestão de Acesso:** controle de credenciais, principle of least privilege, tokens JWT e CORS restrito.
+- **DevSecOps & Cybersecurity:** automação na esteira de deploy e gerenciamento seguro de segredos.
+- **Gestão de Acesso:** controle de credenciais, principle of least privilege, tokens JWT e CORS restrito.
 
 ### Painéis técnicos
 
