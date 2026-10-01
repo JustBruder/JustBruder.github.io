@@ -1,6 +1,6 @@
 <div align="center">
 
-  # ✨ Portfólio Web Interativo — Engenharia, Back-end & DevSecOps ✨
+  # ✨ Portfólio Web Interativo — Back-end & DevSecOps ✨
 
   <p align="center">
     <strong>Portfólio pessoal desenvolvido para apresentar minha trajetória, projetos e atuação técnica em Desenvolvimento Back-end, DevSecOps e Cibersegurança.</strong>
