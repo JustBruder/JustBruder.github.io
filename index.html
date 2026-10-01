@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Ingrid Bruder · Back-end, DevSecOps e Cibersegurança</title>
+  
+  <meta name="description" content="Portfólio de Ingrid Bruder (Dazai). Estudante de Engenharia da Computação com foco em Back-end Java/Python, DevSecOps e Cibersegurança.">
+  <meta property="og:title" content="Ingrid Bruder · Back-end & DevSecOps">
+  <meta property="og:description" content="Engenharia de software com foco em segurança, automação e infraestrutura.">
+  <meta property="og:type" content="website">
+
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✦</text></svg>">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..700;1,6..96,400..700&family=DM+Mono:wght@400;500&family=Figtree:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/variables.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/layout.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+</head>
+<body>
+
+  <!-- Canvas das Teias Interativas de Fundo -->
+  <canvas id="web" aria-hidden="true"></canvas>
+
+  <!-- Top Navbar -->
+  <header class="top-nav">
+    <a href="#inicio" class="logo"><span>✦</span> Ingrid Bruder</a>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#certificacoes">Certificações</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+    <button id="theme-toggle" class="btn-theme" aria-label="Alternar modo claro e escuro">modo corporativo</button>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="inicio" class="hero-section">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <span class="kicker">DevSecOps · Back-end · Cibersegurança</span>
+      <h1>Engenharia de software com foco em segurança, automação e infraestrutura.</h1>
+      <p>
+        Oi, eu sou a Ingrid (ou Dazai). Sou uma estudante de Engenharia da Computação e atualmente construo aplicações em Java e Python, aplicando práticas de DevSecOps, controle de acesso e automação de pipelines no meu dia a dia.
+      </p>
+      <div class="hero-actions">
+        <a class="btn-primary" href="#projetos">Ver meus projetos <span>→</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção Sobre Mim -->
+  <section id="sobre" class="section-container">
+    <div class="about-container">
+      <div class="about-text-side">
+        <span class="kicker">Trajetória & Engenharia</span>
+        <h2>Back-end, automação e segurança, do meu jeito.</h2>
+        
+        <p>
+          Tenho mais de 9 anos de experiência acumulada no atendimento e suporte técnico ao cliente, o que me deu uma base sólida em comunicação fluida, resolução de problemas reais sob pressão e resiliência.
+        </p>
+        <p>
+          Hoje aplico essa bagagem e a minha formação em Engenharia da Computação na evolução da carreira que venho construindo para mim, focando em arquitetura Java, automação em Python e segurança de aplicações no ciclo de vida de desenvolvimento (SDLC).
+        </p>
+
+        <div class="signature-box">
+          <span class="neon-signature">meow ♥</span>
+          <p class="dark-pink-text">Fora do código, sou de rosa, de video games e de gatos.</p>
+        </div>
+
+        <div class="about-grid-details">
+          <div class="about-detail-item">
+            <div class="about-detail-info">
+              <b>Visão integrada · 9+ anos de experiência</b>
+              <span>Comunicação fluida entre times técnicos e de negócio para integrar as pontes da cultura DevSecOps entre Desenvolvimento, Operações e Segurança.</span>
+            </div>
+          </div>
+          <div class="about-detail-item">
+            <div class="about-detail-info">
+              <b>DevSecOps e Cibersegurança</b>
+              <span>Security by Design: automação de rotinas de cibersegurança com Python e aplicação de práticas de segurança na esteira de deploy.</span>
+            </div>
+          </div>
+          <div class="about-detail-item">
+            <div class="about-detail-info">
+              <b>Gestão de acesso e credenciais</b>
+              <span>Armazenamento seguro de segredos (GitHub Secrets), chaves criptografadas e princípio do menor privilégio em pipelines.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-img-side" aria-label="Imagem da Aranha"></div>
+    </div>
+
+    <!-- Cards de Trilha + Mapa -->
+    <div class="trail-layout">
+
+      <div class="trail-cards">
+        <div class="box-card">
+          <span class="card-label">Postura de segurança</span>
+          <b>Em prática</b>
+          <span class="card-sub">JWT · CORS restrito · limite por IP</span>
+          <svg viewBox="0 0 200 26" preserveAspectRatio="none">
+            <path d="M0 22 L40 18 L80 20 L120 12 L160 8 L200 3"/>
+            <circle r="3.5">
+              <animateMotion path="M0 22 L40 18 L80 20 L120 12 L160 8 L200 3" dur="2.8s" repeatCount="indefinite"/>
+              <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="2.8s" repeatCount="indefinite"/>
+            </circle>
+          </svg>
+        </div>
+
+        <div class="box-card">
+          <span class="card-label">Pipeline CI/CD</span>
+          <b>Automatizado</b>
+          <span class="card-sub">GitHub Actions · Docker Hub</span>
+          <svg viewBox="0 0 200 26" preserveAspectRatio="none">
+            <path d="M0 20 L50 20 L70 8 L110 8 L130 20 L200 6"/>
+            <circle r="3.5">
+              <animateMotion path="M0 20 L50 20 L70 8 L110 8 L130 20 L200 6" dur="3s" repeatCount="indefinite"/>
+              <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="3s" repeatCount="indefinite"/>
+            </circle>
+          </svg>
+        </div>
+
+        <div class="box-card">
+          <span class="card-label">Infraestrutura</span>
+          <b>Containers e Linux</b>
+          <span class="card-sub">Docker · Bash · Tcpdump</span>
+          <svg viewBox="0 0 200 26" preserveAspectRatio="none">
+            <path d="M0 14 C30 2 60 24 100 12 S170 4 200 14"/>
+            <circle r="3.5">
+              <animateMotion path="M0 14 C30 2 60 24 100 12 S170 4 200 14" dur="2.5s" repeatCount="indefinite"/>
+              <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="2.5s" repeatCount="indefinite"/>
+            </circle>
+          </svg>
+        </div>
+
+        <div class="box-card">
+          <span class="card-label">Qualidade de código</span>
+          <b>Analisada</b>
+          <span class="card-sub">SonarQube no Gestor de Estoque</span>
+          <svg viewBox="0 0 200 26" preserveAspectRatio="none">
+            <path d="M0 24 L60 16 L100 18 L150 9 L200 4"/>
+            <circle r="3.5">
+              <animateMotion path="M0 24 L60 16 L100 18 L150 9 L200 4" dur="3.2s" repeatCount="indefinite"/>
+              <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="3.2s" repeatCount="indefinite"/>
+            </circle>
+          </svg>
+        </div>
+      </div>
+
+      <!-- Mapa de Ameaças -->
+      <div class="box-card map-box">
+        <div class="map-header">
+          <span>Threat intelligence · simulação ilustrativa, não são dados reais</span>
+          <span class="live-status">ao vivo (simulado)</span>
+        </div>
+        <canvas id="map" aria-label="Mapa-múndi com ataques simulados"></canvas>
+        <div class="map-footer">
+          <div><b id="c1">0</b><span>eventos</span></div>
+          <div><b id="c2">0</b><span>bloqueados</span></div>
+          <div><b id="c3">0</b><span>críticos</span></div>
+          <ul id="feed"></ul>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Seção Projetos -->
+  <section id="projetos" class="section-container">
+    <h2>Projetos</h2>
+    <div class="projects-grid" id="projects-container"></div>
+
+    <div class="two-columns" id="skills">
+      <div class="box-card">
+        <h3>Skills</h3>
+        <div class="tag-cloud">
+          <span>Java</span><span>SQL</span><span>API REST</span><span>JWT</span>
+          <span>Docker</span><span>GitHub Actions</span><span>Linux</span><span>Bash</span>
+          <span>Tcpdump</span><span>SonarQube</span>
+        </div>
+      </div>
+
+      <div class="box-card">
+        <h3>Status do sistema</h3>
+        <div class="stats-grid">
+          <div><b data-n="5">0</b><span> certificações</span></div>
+          <div><b data-n="4">0</b><span> projetos</span></div>
+          <div><b data-n="3">0</b><span> º lugar hackathon</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certificações -->
+  <section id="certificacoes" class="section-container">
+    <h2>Certificações</h2>
+    <div class="certifications-list">
+      <div class="box-card cert-item">
+        <div class="cert-icon">G</div>
+        <div>
+          <b>Google Cybersecurity Professional Certificate</b>
+          <span class="cert-sub">Coursera · jul/2026 · Tcpdump, Bash</span>
+        </div>
+      </div>
+      <div class="box-card cert-item">
+        <div class="cert-icon">C</div>
+        <div>
+          <b>Sensibilização para a Segurança Digital</b>
+          <span class="cert-sub">Cisco Networking Academy · set/2026</span>
+        </div>
+      </div>
+      <div class="box-card cert-item">
+        <div class="cert-icon">E</div>
+        <div>
+          <b>Cibersegurança na Era da IA</b>
+          <span class="cert-sub">EBAC · set/2026</span>
+        </div>
+      </div>
+      <div class="box-card cert-item">
+        <div class="cert-icon">F</div>
+        <div>
+          <b>Linux Fundamentos</b>
+          <span class="cert-sub">FIAP · ago/2026</span>
+        </div>
+      </div>
+      <div class="box-card cert-item">
+        <div class="cert-icon">EF</div>
+        <div>
+          <b>EF SET, inglês</b>
+          <span class="cert-sub">58/100, nível B2 · ago/2026</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato" class="section-container">
+    <h2>Vamos conversar?</h2>
+    <p>Quer trocar uma ideia sobre tecnologia, segurança ou gatos? Me chama.</p>
+    <div class="contact-links">
+      <a class="btn-primary" href="mailto:ibruder83@gmail.com">Enviar e-mail</a>
+      <a class="btn-primary" href="https://www.linkedin.com/in/ingrid-bruder/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a class="btn-primary" href="https://github.com/JustBruder" target="_blank" rel="noopener noreferrer">GitHub</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Ingrid Bruder · Código limpo e MEOW</p>
+  </footer>
+
+  <div id="modal" class="modal-overlay" aria-hidden="true" role="dialog" aria-modal="true"></div>
+
+  <script type="module" src="assets/js/main.js"></script>
+</body>
+</html>

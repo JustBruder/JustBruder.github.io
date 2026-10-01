@@ -1,0 +1,42 @@
+/* Tema Escuro (Padrão) */
+:root,
+:root[data-theme="dark"] {
+  /* Paleta Base - Dark Luxury Obsidian */
+  --bg-main: #07070A;
+  --bg-card: #0F0F14;
+  --border-color: rgba(255, 158, 202, 0.15);
+  --border-hover: rgba(255, 158, 202, 0.45);
+  
+  /* Cores de Texto */
+  --text-main: #ECE7EA;
+  --text-muted: #9A9FA8;
+  
+  /* Tons de Rosa */
+  --pink-soft: #FF9ECA;
+  --pink-primary: #FF2A85;
+  --pink-accent: #FF007F;
+  --pink-deep: #D81B60;
+  --neon-color: #FFD9EA;
+  --neon-glow: 0 0 8px #FF2A85, 0 0 16px #FF007F;
+  
+  /* Tipografia */
+  --font-serif: "Bodoni Moda", Georgia, serif;
+  --font-sans: "Figtree", system-ui, -apple-system, sans-serif;
+  --font-mono: "DM Mono", ui-monospace, monospace;
+}
+
+/* Tema Claro */
+:root[data-theme="light"] {
+  --bg-main: #B3A5AD;
+  --bg-card: #A6989F;
+  --border-color: rgba(90, 30, 60, 0.35);
+  --border-hover: rgba(216, 27, 96, 0.55);
+  --text-main: #130F12;
+  --text-muted: #2F272C;
+  --pink-soft: #74072F;
+  --pink-primary: #C2185B;
+  --pink-accent: #D81B60;
+  --pink-deep: #6A0B38;
+  --map-dot: #7C6C75;
+  --neon-color: #FF2A85;
+  --neon-glow: 0 0 6px rgba(255, 42, 133, 0.9), 0 0 14px rgba(255, 0, 127, 0.7), 0 0 28px rgba(255, 0, 127, 0.45);
